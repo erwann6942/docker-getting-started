@@ -21,4 +21,4 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: testcesi/getting-started:
+        tags: testcesi/getting-started:1
