@@ -8,9 +8,9 @@ jobs:
     steps:
     - run: echo "Hello world"
     - run: ls
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v2
     - run: ls
     - name: Set up Docker Buildx
-      uses: docker/setup-buidx-actions@v2
+      uses: docker/setup-buildx-actions@v2
     - name: erwann6942@gmail.com
     ###
