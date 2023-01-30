@@ -17,4 +17,8 @@ jobs:
       with:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOCKEN }}
-        
+    - name: Build and push to dockerhub (testcesi/getting-started)
+      uses: docker/build-push-action@v3
+      with:
+        push: true
+        tags: testcesi/getting-started:
