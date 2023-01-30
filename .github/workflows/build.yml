@@ -12,5 +12,5 @@ jobs:
     - run: ls
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-actions@v2
-    - name: erwann6942@gmail.com
+    - name: docker login
     ###
